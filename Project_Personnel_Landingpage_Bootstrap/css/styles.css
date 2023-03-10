@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gradient {
+  background: rgb(0, 97, 242);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 97, 242, 1) 0%,
+    rgb(29, 138, 29)100%
+  );
+}
+.col-md-5{
+  padding-top: 30px;
+}
+
+.col-md-5 img{
+  border-radius: 25%;
+}
+
+.col-md-6 img{
+  border-radius: 15%;
+}
+
+.page-header {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.feature {
+  color: #fff;
+    border-radius: 25%;
+}
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+
+.gallery img {
+  border-radius: 5%;
+}
+
+.services {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
